@@ -8556,7 +8556,7 @@ static const union AnimCmd *const sAnims_KAKUNA[] ={
 
 static const union AnimCmd *const sAnims_IGNICORUS[] ={
     sAnim_GeneralFrame0,
-    sAnim_MEWTHREE_1,
+    sAnim_IGNICORUS_1,
 };
 
 static const union AnimCmd *const sAnims_BEEDRILL[] ={

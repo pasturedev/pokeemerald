@@ -1,7 +1,6 @@
 #ifndef GUARD_GRAPHICS_H
 #define GUARD_GRAPHICS_H
 
-//new pokemons added
 extern const u32 gMonFrontPic_Ignicorus[];
 extern const u32 gMonPalette_Ignicorus[];
 extern const u32 gMonBackPic_Ignicorus[];
@@ -9,7 +8,6 @@ extern const u32 gMonShinyPalette_Ignicorus[];
 extern const u32 gMonStillFrontPic_Ignicorus[];
 extern const u8 gMonIcon_Ignicorus[];
 extern const u8 gMonFootprint_Ignicorus[];
-//end
 
 // overworld
 extern const u32 gMessageBox_Gfx[];
