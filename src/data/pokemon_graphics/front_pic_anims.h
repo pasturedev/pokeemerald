@@ -145,6 +145,13 @@ static const union AnimCmd sAnim_KAKUNA_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_IGNICORUS_1[] =
+{
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_BEEDRILL_1[] =
 {
     ANIMCMD_FRAME(0, 5),
@@ -8547,6 +8554,11 @@ static const union AnimCmd *const sAnims_KAKUNA[] ={
     sAnim_KAKUNA_1,
 };
 
+static const union AnimCmd *const sAnims_IGNICORUS[] ={
+    sAnim_GeneralFrame0,
+    sAnim_MEWTHREE_1,
+};
+
 static const union AnimCmd *const sAnims_BEEDRILL[] ={
     sAnim_GeneralFrame0,
     sAnim_BEEDRILL_1,
@@ -13220,6 +13232,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BUTTERFREE),
     ANIM_CMD(WEEDLE),
     ANIM_CMD(KAKUNA),
+    ANIM_CMD(IGNICORUS)
     ANIM_CMD(BEEDRILL),
     ANIM_CMD(PIDGEY),
     ANIM_CMD(PIDGEOTTO),

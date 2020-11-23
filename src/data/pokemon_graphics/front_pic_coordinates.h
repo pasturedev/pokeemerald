@@ -75,6 +75,11 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x45,
         .y_offset = 11,
     },
+    [SPECIES_IGNICORUS] =
+    {
+        .size = 0x88,
+        .y_offset = 0x00,
+    },
     [SPECIES_BEEDRILL] =
     {
         .size = 0x86,

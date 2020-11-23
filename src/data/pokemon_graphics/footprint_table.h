@@ -15,6 +15,7 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_BUTTERFREE] = gMonFootprint_Butterfree,
     [SPECIES_WEEDLE] = gMonFootprint_Weedle,
     [SPECIES_KAKUNA] = gMonFootprint_Kakuna,
+    [SPECIES_IGNICORUS] = gMonFootprint_Ignicorus,
     [SPECIES_BEEDRILL] = gMonFootprint_Beedrill,
     [SPECIES_PIDGEY] = gMonFootprint_Pidgey,
     [SPECIES_PIDGEOTTO] = gMonFootprint_Pidgeotto,
